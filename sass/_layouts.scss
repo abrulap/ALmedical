@@ -1,8 +1,14 @@
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  background-color: var(--color-gray-light-1);
+  background-color: var(--color-grey-light-1);
   min-height: 50rem;
+
+  @media only screen and (max-width: $bp-largest) {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 .header {
@@ -13,4 +19,10 @@
   font-size: 1.4rem;
   height: 7rem;
   border-bottom: var(--line);
+
+  @media only screen and (max-width: $bp-smallest) {
+    flex-wrap: wrap;
+    height: 11rem;
+    align-content: space-around;
+  }
 }
