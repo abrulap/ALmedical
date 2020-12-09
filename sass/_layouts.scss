@@ -1,0 +1,16 @@
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: var(--color-gray-light-1);
+  min-height: 50rem;
+}
+
+.header {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  height: 7rem;
+  border-bottom: var(--line);
+}
